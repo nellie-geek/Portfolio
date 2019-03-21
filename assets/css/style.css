@@ -1,10 +1,11 @@
 body {
-    background-color: #efeee7;
+    background: url("../images/concrete_seamless.png");
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 150%;
+
 }
 
 h1 {
@@ -37,11 +38,11 @@ a {
 }
 
 #main-bio {
-    width: 715px;
+    width: 70%;
 }
 
 #contact-info {
-    width: 307px;
+    width: 30%;
 }
 
 #bio-image {
@@ -49,3 +50,24 @@ a {
     width: 200px;
     height: 200px;
 }
+
+.projects {
+    clear: both;
+
+}
+
+#social {
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.auth-image {
+    width: 75px;
+    height: 75px;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+
+.projects {
+   
+  }
