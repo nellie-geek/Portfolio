@@ -8,6 +8,11 @@ body {
 
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
 h1 {
     color: #efeee7;
     background: linear-gradient(#333333, #ad3458);
@@ -23,12 +28,13 @@ h2 {
 }
 
 a {
-    color: #d21034;
+    color: #ad3458;
 }
 
 .container {
     width: 1024px;
     margin: 0 auto;
+    margin-top: 25px;
 }
 
 #main-bio,
@@ -38,11 +44,12 @@ a {
 }
 
 #main-bio {
-    width: 70%;
+    width: 75%;
 }
 
 #contact-info {
-    width: 30%;
+    width: 25%;
+    padding-left: 10px;
 }
 
 #bio-image {
@@ -57,17 +64,29 @@ a {
 }
 
 #social {
-    max-height: 30px;
-    max-width: 30px;
+    max-height: 40px;
+    max-width: 40px;
 }
 
 .auth-image {
-    width: 75px;
-    height: 75px;
-    margin-top: 8px;
-    margin-right: 5px;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+footer {
+    padding-bottom: 10px;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background: #666;
+    border-top: 10px solid #ad3458;
   }
 
 .projects {
-   
+    margin: 0;
+    background: url(../images/concrete_seamless.png);
+    border: 1px solid #ddd;
   }
