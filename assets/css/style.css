@@ -24,9 +24,8 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 24px;    
 }
-
 a {
     color: #ad3458;
 }
@@ -35,6 +34,7 @@ a {
     width: 1024px;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #main-bio,
@@ -56,11 +56,6 @@ a {
     margin-right: 20px;
     width: 200px;
     height: 200px;
-}
-
-.projects {
-    clear: both;
-
 }
 
 #social {
@@ -86,7 +81,9 @@ footer {
   }
 
 .projects {
-    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    clear: both;
     background: url(../images/concrete_seamless.png);
-    border: 1px solid #ddd;
+    border-top: 1px solid #ddd;
   }
