@@ -1,2 +1,2 @@
-# Portolio
+# Portfolio
 Bio &amp; Portfolio 
