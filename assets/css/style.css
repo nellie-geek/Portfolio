@@ -1,5 +1,6 @@
 body {
-    background: url("../images/concrete_seamless.png");
+    background: #CCC;
+    /* url("../images/concrete_seamless.png"); */
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -13,7 +14,7 @@ body {
     margin: 0;
   }
 
-h1 {
+/* h1 {
     color: #efeee7;
     background: linear-gradient(#333333, #ad3458);
     margin: 0;
@@ -21,8 +22,7 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 28px;
-}
-
+} */
 h2 {
     font-size: 24px;    
 }
@@ -47,20 +47,21 @@ a {
     width: 75%;
 }
 
-#contact-info {
+/* #contact-info {
     width: 25%;
     padding-left: 10px;
-}
+} */
 
 #bio-image {
     margin-right: 20px;
     width: 200px;
-    height: 200px;
+    height: 200px; 
 }
 
 #social {
     max-height: 40px;
     max-width: 40px;
+    margin: 5px;
 }
 
 .auth-image {
@@ -81,9 +82,90 @@ footer {
   }
 
 .projects {
-    margin-top: 30px;
+    margin-top: 130px;
     margin-bottom: 25px;
     clear: both;
-    background: url(../images/concrete_seamless.png);
+    /* background: url(../images/concrete_seamless.png); */
     border-top: 1px solid #ddd;
+
+  }
+
+  header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      min-height: 240px;
+      background: linear-gradient(#333333, #ad3458);
+      z-index: -1;
+  }
+  header::before {
+      content: '';
+      position: fixed;
+      top:240px;
+      width:1000px;
+      height:1000px;
+      transform-origin:top left;
+      transform:scale(.5);
+      border-radius:50% 0 0 0;
+      box-shadow:-400px -45px #333;
+  }
+
+  .menu {
+    position: fixed;
+    top: 20px;
+    right: 5px;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding-right: 2vw;
+    z-index: 20;
+  }
+  .menu ul {
+    list-style:none;
+    text-align:right;
+  }
+
+  .page {
+    padding-left:35vw;
+    background-color:transparent;
+    min-height:200vh;
+  }
+  .page .pane {
+    color:#FFF;
+    position:relative;
+    min-height:65vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    box-sizing:border-box;
+    padding:10vw;
+  }
+  .page .pane img {
+    width:100%;
+  }
+  .page .pane:before {
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:-35vw;
+    background-color:purple;
+    z-index:-10;
+  }
+  .page .pane:nth-child(4n+1):before {
+    background-color:rgb(8, 200, 207);
+  }
+  .page .pane:nth-child(4n+2):before {
+    background-color:#5D529D;
+  }
+  .page .pane:nth-child(4n+3):before {
+    background-color:#F7AD63;
+  }
+  .page .pane:nth-child(4n+4):before {
+    background-color:#2463BC;
   }
