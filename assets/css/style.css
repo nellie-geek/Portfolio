@@ -96,7 +96,7 @@ footer {
       left: 0;
       width: 100vw;
       min-height: 240px;
-      background: linear-gradient(#333333, #ad3458);
+      background: linear-gradient(#ad3458, #333);
       z-index: -1;
   }
   header::before {
