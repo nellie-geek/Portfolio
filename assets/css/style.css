@@ -72,7 +72,7 @@ footer {
     margin-left: 2.5%;
 }
 
-.tile .card {
+.tile {
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px;
