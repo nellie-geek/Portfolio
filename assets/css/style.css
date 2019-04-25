@@ -156,7 +156,7 @@ header::before {
     background-color:purple;
     z-index:-10;
 }
-.page .pane:nth-child(4n+1):before {
+/* .page .pane:nth-child(4n+1):before {
     background-color:rgb(8, 200, 207);
 }
 .page .pane:nth-child(4n+2):before {
@@ -167,4 +167,4 @@ header::before {
 }
 .page .pane:nth-child(4n+4):before {
     background-color:#2463BC;
-}
+} */
