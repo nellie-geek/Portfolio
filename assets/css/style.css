@@ -87,7 +87,10 @@ header {
     left: 0;
     width: 100vw;
     min-height: 240px;
-    background: linear-gradient(#ad3458, #333);
+    /* background: linear-gradient(#ad3458, #333); */
+    background-image: url(../images/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: -1;
 }
 
